@@ -7,3 +7,34 @@
 }
 
 /* reset */
+
+body {
+    background-color: black;
+}
+
+#container-header {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+
+
+    color: white;
+
+    /* test  */
+    border-style: dashed;
+}
+
+.buttons-header {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+
+
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #4a4a4a;
+
+}
