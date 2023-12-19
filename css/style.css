@@ -23,8 +23,12 @@ a {
 
 /* header */
 #container-header {
-    width: 100%;
+    position: fixed;
+    min-width: 100%;
     height: auto;
+    left: 0;
+    right: 0;
+    z-index: 11;
 
     display: flex;
     justify-content: flex-end;
@@ -33,8 +37,7 @@ a {
 
     color: white;
 
-    /* test  */
-    border-style: dashed;
+
 }
 
 .buttons-header {
@@ -114,21 +117,23 @@ a {
 
 /* navbar bottom */
 #navbar-bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    min-width: 100%;
+    height: 80px;
+    z-index: 11;
+
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    height: 80px;
 
     color: white;
-    background-color: #4a4a4a;
-
-    border-color: white;
-    border-style: dashed;
+    background-color: #222222;
 }
 
 .icon-box {
     position: relative;
-    padding: 15px;
+    padding: 20px;
 }
 
 .box {
@@ -138,7 +143,7 @@ a {
 }
 
 a.icone-push i {
-    font-size: 28px;
+    font-size: 25px;
     padding-bottom: 5px;
 }
 
@@ -189,6 +194,10 @@ a.icone-push i {
     padding: 10px;
 
     background-color: #4a4a4a;
+}
+
+#end-meating-button a {
+    color: red;
 }
 
 /* end navbar bottom */
