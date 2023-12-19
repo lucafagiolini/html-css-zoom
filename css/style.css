@@ -64,12 +64,19 @@ a {
 
 #video-view {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 10px;
+
 }
 
 #video-view .my-video {
     position: relative;
     min-width: auto;
     min-height: auto;
+
+    margin-top: 15px;
 }
 
 .webcam-container {
@@ -87,7 +94,7 @@ a {
 
     gap: 8px;
     padding: 5px;
-    background-color: rgba(1, 1, 1, .3);
+    background-color: rgba(1, 1, 1, .6);
 }
 
 .mute {
@@ -97,3 +104,25 @@ a {
 .username {
     color: white;
 }
+
+/* end main */
+
+
+
+
+
+
+/* navbar bottom */
+#navbar-bottom {
+    width: 100%;
+    height: 80px;
+
+    border-color: white;
+    border-style: dashed;
+}
+
+.bottoms-left {
+    display: flex;
+}
+
+/* end navbar bottom */
