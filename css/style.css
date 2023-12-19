@@ -9,7 +9,7 @@
 /* reset */
 
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 a {
@@ -62,3 +62,27 @@ a {
 
 
 /* main */
+#video-view {
+    display: flex;
+}
+
+#video-view .my-video {
+    position: relative;
+    min-width: auto;
+    min-height: auto;
+}
+
+.webcam-container {
+    min-width: 250px;
+    min-height: 150px;
+    background-image: url("../img/smart-working.jpg");
+    background-size: cover;
+}
+
+.webcam-overlay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    background-color: rgba(1, 1, 1, .3);
+}
