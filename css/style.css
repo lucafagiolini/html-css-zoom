@@ -120,6 +120,7 @@ a {
     height: 80px;
 
     color: white;
+    background-color: #4a4a4a;
 
     border-color: white;
     border-style: dashed;
@@ -139,6 +140,10 @@ a {
 a.icone-push i {
     font-size: 28px;
     padding-bottom: 5px;
+}
+
+.on {
+    color: green;
 }
 
 .bottoms-left {
@@ -163,5 +168,27 @@ a.icone-push i {
 }
 
 /* end bottoms center */
+
+
+
+
+
+/* bottoms right */
+
+
+/* end bootoms right */
+.bottoms-right {
+    color: red;
+}
+
+#end-meating-button {
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+    padding: 10px;
+
+    background-color: #4a4a4a;
+}
 
 /* end navbar bottom */
