@@ -130,6 +130,12 @@ a {
     padding: 15px;
 }
 
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 a.icone-push i {
     font-size: 32px;
 }
@@ -139,12 +145,9 @@ a.icone-push i {
     align-items: center;
 }
 
-
 .expander-box {
     padding-right: 25px;
 }
-
-
 
 #expander {
     position: absolute;
