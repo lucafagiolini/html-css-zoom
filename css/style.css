@@ -157,4 +157,11 @@ a.icone-push i {
     right: 0px;
 }
 
+/* bottoms center */
+.bottoms-center {
+    display: flex;
+}
+
+/* end bottoms center */
+
 /* end navbar bottom */
