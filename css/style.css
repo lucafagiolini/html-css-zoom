@@ -114,15 +114,41 @@ a {
 
 /* navbar bottom */
 #navbar-bottom {
+    display: flex;
     width: 100%;
     height: 80px;
+
+    color: white;
 
     border-color: white;
     border-style: dashed;
 }
 
+.icon-box {
+    position: relative;
+    padding: 15px;
+}
+
+a.icone-push i {
+    font-size: 32px;
+}
+
 .bottoms-left {
     display: flex;
+    align-items: center;
+}
+
+
+.expander-box {
+    padding-right: 25px;
+}
+
+#expander {
+    position: fixed;
+    position: absolute;
+
+    top: 32 px;
+    right: 0px;
 }
 
 /* end navbar bottom */
